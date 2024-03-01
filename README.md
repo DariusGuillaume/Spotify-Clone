@@ -39,7 +39,7 @@ To run the Spotify Clone locally, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd spotify-clone
+   cd Spotify-Clone
    ```
 
 3. Install dependencies:
