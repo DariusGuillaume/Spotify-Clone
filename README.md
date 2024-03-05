@@ -1,7 +1,7 @@
 
 # Spotify Clone
 
-This project is a Spotify clone built using Next.js, React, Stripe for payment processing, Supabase for authentication and database management with PostgreSQL, and Tailwind CSS for styling.
+This project is a concept of a Spotify website if it was in LightMode, built using Next.js, React, Stripe for payment processing, Supabase for authentication and database management with PostgreSQL, and Tailwind CSS for styling.
 
 ## Table of Contents
 

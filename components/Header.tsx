@@ -19,17 +19,17 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
    
     return (
         <div className={twMerge(`h-fit bg-gradient-to-b
-        from-emerald-800 p-6`, className)}>
+        from-neutral-10 p-6`, className)}>
         
         <div className='w-full mb-4 flex items-center justify-between'>
         <div className='hidden md:flex gap-x-2 items-center'>
 
-        <button className = "rounded-full bg-black flex items-center justify-center hover:opacity-75 transition" > 
+        <button className = "rounded-full bg-green-500 flex items-center justify-center hover:opacity-75 transition" > 
         <RxCaretLeft className='text-white'
          size={35} onClick={() => router.forward()} />
         </button>
 
-        <button className = "rounded-full bg-black flex items-center justify-center hover:opacity-75 transition" > 
+        <button className = "rounded-full bg-green-500 flex items-center justify-center hover:opacity-75 transition" > 
         <RxCaretRight className='text-white'
          size={35} onClick={() => router.back()} />
         </button>
@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
         <div className ="flex md:hidden gap-x-2 items-center"> 
         <button className='rounded-full p-2 bg-white flex items-center justify-center hover:opacity-75 transition'>
-            <HiHome className = "text-black" size = {20}/>
+            <HiHome className = "text-black " size = {20}/>
         
         </button>
         <button className='rounded-full p-2 bg-white flex items-center justify-center hover:opacity-75 transition'>
@@ -50,12 +50,12 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         <div className = "flex justify-between items-center gap-x-4">
         <>
         <div>
-        <Button onClick={() => {}} className='bg-transparent text-neutral-300 font-medium'>
+        <Button onClick={() => {}} className='bg-transparent text-black font-medium'>
         Sign Up
         </Button>
         </div>
         <div>
-        <Button  onClick={() => {}} className='bg-white px-6 py-2 text-black font-medium'>
+        <Button  onClick={() => {}} className='bg-green-500 px-6 py-2 text-black font-medium'>
        Log in 
         </Button>
         </div>
