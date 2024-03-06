@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         </div>
 
         <div className ="flex md:hidden gap-x-2 items-center"> 
-        <button className='rounded-full p-2 bg-white flex items-center justify-center hover:opacity-75 transition'>
+        <button className='rounded-full p-2 bg-white flex items-center justify-center right-5 hover:opacity-75 transition'>
             <HiHome className = "text-black " size = {20}/>
         
         </button>
